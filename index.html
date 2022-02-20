@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TITLE-->
+    <section class="menu">
+      <div class="title">
+        <h2>Menu</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- BUTTONS -->
+      <div class="btn-container">
+          <button class="btn-cat" type="button" data-cat="all">All</button>
+          <button class="btn-cat" type="button"  data-cat="breakfast" >breakfast</button>
+          <button class="btn-cat" type="button" data-cat="lunch" >Lunch</button>
+          <button class="btn-cat" type="button" data-cat="shakes"  >Shakes </button>
+      </div>
+      <!-- MENU ITEMS -->
+      <div class="section-menu">
+        <!-- item -->
+        <article class="menu-item">
+          <img
+            src="./images/avocado-mozzarella-salat-mit-mango.jpg"
+            class="photo"
+            alt="menu item"
+          />
+          <div class="item-info">
+            <header>
+              <h4>Avocado-Mozzarella-Salat mit Mango</h4>
+              <h4 class="price">14€</h4>
+            </header>
+            <p class="item-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              corporis accusantium repudiandae consectetur rem! Ipsa soluta
+              consequatur voluptatem. Autem, non!
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
